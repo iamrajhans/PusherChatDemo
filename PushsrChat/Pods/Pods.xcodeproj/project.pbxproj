@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DE027C2D3FB7B82FCB432797E06748 /* PusherSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA73B8B7828DD5823ADB195D4917DEA /* PusherSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		147F28E55D80287EEEB7D96D1733E83A /* PusherSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC1DB4F5767721F3C4C3AA92FE34301 /* PusherSwift.swift */; };
+		168307893C61C56C15A5028229E7C09B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27972F4A35FB63C8C1A88093CAB9E93D /* Reachability.swift */; };
+		1D7783934DCC9FC41686D3560CB89E19 /* Pods-PushsrChatUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCCD88FB19387462A03D21CBF5E53FB /* Pods-PushsrChatUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2158F8562D240D580AB7B0D1D68C25F5 /* Pods-PushsrChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF90290A028E95E1777B78473B1D321C /* Pods-PushsrChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2239B2F6CE1AE56BDA3C338796FD7CD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		332F08EA16FD6F6D6E221FC54E7B7BFA /* PusherChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06C344F29A1B15D2DDBB118CA53D68 /* PusherChannel.swift */; };
+		3CC7223E6041B64D8CD44A0DD2919E63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4241D1504CEA7B9D13F6F0AE56FA5F55 /* PusherGlobalChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA6AD324CED25BC922667A2986A8AE /* PusherGlobalChannel.swift */; };
+		45796DF2B5BC65E132C989758664E64E /* PusherChannels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B83615C3D8AD3486CF76CDA9BD11197 /* PusherChannels.swift */; };
+		4F4E10B751B2B426ACB6AA588917BCA6 /* PusherWebsocketDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15597B48298435B203026C18B04CABE9 /* PusherWebsocketDelegate.swift */; };
+		546395AA10F8CD787605E0F437101A71 /* Pods-PushsrChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8259F5D096D8858501E732B6EE1F96 /* Pods-PushsrChat-dummy.m */; };
+		7B54A5B64A35394FC74A1F397BB1DE2C /* Pods-PushsrChatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 758F3B86BB4DE293F3E6B58CBC8B22FA /* Pods-PushsrChatTests-dummy.m */; };
+		936CD029979BC5653510E29A018DA8B2 /* PusherClientOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CE75ECE1D46119A3040FB421BDFDB /* PusherClientOptions.swift */; };
+		9C9E29FB6616A8890E61D8EB51CB2C19 /* PusherConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83B6155271AD73929C7D6274B7B792F /* PusherConnection.swift */; };
+		A96ED775F738F8E213170A5A63096848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AF620E980C01E7C3E6A27A5806CA7732 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B4699760CB3419993C25D12EF492F206 /* Pods-PushsrChatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 048BF7E832E51E5E5791C0FD8F9DFE39 /* Pods-PushsrChatUITests-dummy.m */; };
+		B5F4563370E7CC59D6573FFE07AB3A6F /* Starscream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5171835F01EE8CA33BBF7369C992E132 /* Starscream.swift */; };
+		D0595DA5AAEF357CD97625DD05E4634D /* CryptoSwiftHMACModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E357528B5D1AC9F2E7074E6E3F3B09 /* CryptoSwiftHMACModule.swift */; };
+		D8B963F11BAA96F778BBC2FA5E7E6CB3 /* PusherPresenceChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86CF958980F26CE52F8CDF0255C96A /* PusherPresenceChannel.swift */; };
+		E195220E835078B087DB195DE7A74588 /* PusherSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDB6C7C60CDC66B73AD3E63D75B35E /* PusherSwift-dummy.m */; };
+		F348481B7E2A6A0C14B4F7B8386980A9 /* Pods-PushsrChatTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BEF48646A10361B0D8606E41786424 /* Pods-PushsrChatTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE18ED10E0676DF3583C9F7495DF2DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8028CF35B9807F1DCE2909F6B25709D5;
+			remoteInfo = PusherSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001D5C7BA091DA0FD364A921FDFB7089 /* Pods_PushsrChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushsrChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0420AD04F837EF473E624463F2AC4103 /* PusherSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PusherSwift-prefix.pch"; sourceTree = "<group>"; };
+		048BF7E832E51E5E5791C0FD8F9DFE39 /* Pods-PushsrChatUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushsrChatUITests-dummy.m"; sourceTree = "<group>"; };
+		05AB6F5BFCC113FA6E5962868499005A /* Pods-PushsrChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushsrChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		08C42A57E1CA25D7627F841DD165A7CB /* Pods-PushsrChatTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushsrChatTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B7B125A014C16145B1C5AB4B1786BC0 /* Pods-PushsrChat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushsrChat-frameworks.sh"; sourceTree = "<group>"; };
+		0CC1DB4F5767721F3C4C3AA92FE34301 /* PusherSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherSwift.swift; path = Source/PusherSwift.swift; sourceTree = "<group>"; };
+		0D8CE5F6E379D5B504B6CDAE274A0EFA /* Pods_PushsrChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushsrChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111B93D523370CEC98859BBE6B8446A6 /* Pods-PushsrChatUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PushsrChatUITests.modulemap"; sourceTree = "<group>"; };
+		15597B48298435B203026C18B04CABE9 /* PusherWebsocketDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherWebsocketDelegate.swift; path = Source/PusherWebsocketDelegate.swift; sourceTree = "<group>"; };
+		163E9716B54FA4E59D2A9CA14AB86E43 /* Pods-PushsrChatUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushsrChatUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		222D294B9B4F065F8C2D7A7936E9968D /* Pods-PushsrChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PushsrChat.modulemap"; sourceTree = "<group>"; };
+		24BB1BDC21B9EE9D57AED856CBB7240A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27972F4A35FB63C8C1A88093CAB9E93D /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Source/Reachability.swift; sourceTree = "<group>"; };
+		2C06C344F29A1B15D2DDBB118CA53D68 /* PusherChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherChannel.swift; path = Source/PusherChannel.swift; sourceTree = "<group>"; };
+		2E86CF958980F26CE52F8CDF0255C96A /* PusherPresenceChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherPresenceChannel.swift; path = Source/PusherPresenceChannel.swift; sourceTree = "<group>"; };
+		31E361DD41C8446CE0E3AE53F119AA1F /* Pods-PushsrChat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushsrChat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37BEF48646A10361B0D8606E41786424 /* Pods-PushsrChatTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushsrChatTests-umbrella.h"; sourceTree = "<group>"; };
+		38F3DC5046D5930C23CC85736DD98A40 /* Pods-PushsrChatTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushsrChatTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E6C42C5372769DDC7EF705E12A8685E /* Pods-PushsrChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushsrChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44ED67EF51FE4716B12343A2A3265B23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5171835F01EE8CA33BBF7369C992E132 /* Starscream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Starscream.swift; path = Source/Starscream.swift; sourceTree = "<group>"; };
+		5F8D59B40497B099844F2887E6D9BA9E /* Pods-PushsrChat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushsrChat-resources.sh"; sourceTree = "<group>"; };
+		5FA73B8B7828DD5823ADB195D4917DEA /* PusherSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PusherSwift-umbrella.h"; sourceTree = "<group>"; };
+		60DF849CAEDBDA1188E4D8097133B598 /* Pods-PushsrChatTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushsrChatTests-resources.sh"; sourceTree = "<group>"; };
+		64CDB6C7C60CDC66B73AD3E63D75B35E /* PusherSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PusherSwift-dummy.m"; sourceTree = "<group>"; };
+		67B6610FA5F998CD4DA8D646DB99F003 /* Pods-PushsrChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushsrChat.debug.xcconfig"; sourceTree = "<group>"; };
+		6AF244F61540784D4EA96E214E6F909B /* Pods-PushsrChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushsrChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B83615C3D8AD3486CF76CDA9BD11197 /* PusherChannels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherChannels.swift; path = Source/PusherChannels.swift; sourceTree = "<group>"; };
+		703CE75ECE1D46119A3040FB421BDFDB /* PusherClientOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherClientOptions.swift; path = Source/PusherClientOptions.swift; sourceTree = "<group>"; };
+		717C41D9412E35E6D5E9629BE5052645 /* Pods-PushsrChat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushsrChat-acknowledgements.plist"; sourceTree = "<group>"; };
+		758F3B86BB4DE293F3E6B58CBC8B22FA /* Pods-PushsrChatTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushsrChatTests-dummy.m"; sourceTree = "<group>"; };
+		79C0E215D7760F416B0ABEEC1A782632 /* Pods-PushsrChatUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushsrChatUITests-resources.sh"; sourceTree = "<group>"; };
+		7D3EB01D9B50B99A200E191038551C06 /* PusherSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PusherSwift.modulemap; sourceTree = "<group>"; };
+		7D8259F5D096D8858501E732B6EE1F96 /* Pods-PushsrChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushsrChat-dummy.m"; sourceTree = "<group>"; };
+		7E2633A53A8E710A4B042EF6E72060E3 /* Pods-PushsrChatTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PushsrChatTests.modulemap"; sourceTree = "<group>"; };
+		88FA6AD324CED25BC922667A2986A8AE /* PusherGlobalChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherGlobalChannel.swift; path = Source/PusherGlobalChannel.swift; sourceTree = "<group>"; };
+		8FCCD88FB19387462A03D21CBF5E53FB /* Pods-PushsrChatUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushsrChatUITests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AA057B681BD863DAA9D848BFA6F7AA4 /* PusherSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PusherSwift.xcconfig; sourceTree = "<group>"; };
+		A292ACA564CCD20F3FC56AB7521626AD /* PusherSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PusherSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1195DECAE09980054486D8FBD68D833 /* Pods_PushsrChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushsrChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E357528B5D1AC9F2E7074E6E3F3B09 /* CryptoSwiftHMACModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftHMACModule.swift; path = Source/CryptoSwiftHMACModule.swift; sourceTree = "<group>"; };
+		C4F891A8B85A15D453941D79C48FDC06 /* Pods-PushsrChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushsrChat.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D25F5D1D3C242D8993049CA3B2632D52 /* Pods-PushsrChatTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushsrChatTests-frameworks.sh"; sourceTree = "<group>"; };
+		DF90290A028E95E1777B78473B1D321C /* Pods-PushsrChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushsrChat-umbrella.h"; sourceTree = "<group>"; };
+		E0F5AECD8C06413CE9CE17DF30A1C24C /* Pods-PushsrChatUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushsrChatUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E318EEACAA96889941589F7937A6AB03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43BF3BE793CFE87A3F8A54EBCD07B5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E83B6155271AD73929C7D6274B7B792F /* PusherConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PusherConnection.swift; path = Source/PusherConnection.swift; sourceTree = "<group>"; };
+		F3E9ECBADBC6B21A3999218DE32F87DF /* Pods-PushsrChatUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushsrChatUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F771CB868FD77037D0F0C70575AFFEE7 /* Pods-PushsrChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushsrChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0180E73AD639DD8031BA281DE81695D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2239B2F6CE1AE56BDA3C338796FD7CD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4103A03E3AED1555A4E6972751901459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96ED775F738F8E213170A5A63096848 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C04DAB927FA359C7F3209129584AD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF620E980C01E7C3E6A27A5806CA7732 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FAF4DA0283FB23AA073CF4850AD574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC7223E6041B64D8CD44A0DD2919E63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095928B6C4B9654AB1A6F6805310B177 /* Pods-PushsrChat */ = {
+			isa = PBXGroup;
+			children = (
+				24BB1BDC21B9EE9D57AED856CBB7240A /* Info.plist */,
+				222D294B9B4F065F8C2D7A7936E9968D /* Pods-PushsrChat.modulemap */,
+				31E361DD41C8446CE0E3AE53F119AA1F /* Pods-PushsrChat-acknowledgements.markdown */,
+				717C41D9412E35E6D5E9629BE5052645 /* Pods-PushsrChat-acknowledgements.plist */,
+				7D8259F5D096D8858501E732B6EE1F96 /* Pods-PushsrChat-dummy.m */,
+				0B7B125A014C16145B1C5AB4B1786BC0 /* Pods-PushsrChat-frameworks.sh */,
+				5F8D59B40497B099844F2887E6D9BA9E /* Pods-PushsrChat-resources.sh */,
+				DF90290A028E95E1777B78473B1D321C /* Pods-PushsrChat-umbrella.h */,
+				67B6610FA5F998CD4DA8D646DB99F003 /* Pods-PushsrChat.debug.xcconfig */,
+				C4F891A8B85A15D453941D79C48FDC06 /* Pods-PushsrChat.release.xcconfig */,
+			);
+			name = "Pods-PushsrChat";
+			path = "Target Support Files/Pods-PushsrChat";
+			sourceTree = "<group>";
+		};
+		273F45D787857F070DA49E35DCA9C2C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E43BF3BE793CFE87A3F8A54EBCD07B5F /* Info.plist */,
+				7D3EB01D9B50B99A200E191038551C06 /* PusherSwift.modulemap */,
+				9AA057B681BD863DAA9D848BFA6F7AA4 /* PusherSwift.xcconfig */,
+				64CDB6C7C60CDC66B73AD3E63D75B35E /* PusherSwift-dummy.m */,
+				0420AD04F837EF473E624463F2AC4103 /* PusherSwift-prefix.pch */,
+				5FA73B8B7828DD5823ADB195D4917DEA /* PusherSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PusherSwift";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C0F21CFC9F206FCA436E03BB824A0D4 /* Pods-PushsrChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44ED67EF51FE4716B12343A2A3265B23 /* Info.plist */,
+				111B93D523370CEC98859BBE6B8446A6 /* Pods-PushsrChatUITests.modulemap */,
+				F3E9ECBADBC6B21A3999218DE32F87DF /* Pods-PushsrChatUITests-acknowledgements.markdown */,
+				163E9716B54FA4E59D2A9CA14AB86E43 /* Pods-PushsrChatUITests-acknowledgements.plist */,
+				048BF7E832E51E5E5791C0FD8F9DFE39 /* Pods-PushsrChatUITests-dummy.m */,
+				E0F5AECD8C06413CE9CE17DF30A1C24C /* Pods-PushsrChatUITests-frameworks.sh */,
+				79C0E215D7760F416B0ABEEC1A782632 /* Pods-PushsrChatUITests-resources.sh */,
+				8FCCD88FB19387462A03D21CBF5E53FB /* Pods-PushsrChatUITests-umbrella.h */,
+				3E6C42C5372769DDC7EF705E12A8685E /* Pods-PushsrChatUITests.debug.xcconfig */,
+				05AB6F5BFCC113FA6E5962868499005A /* Pods-PushsrChatUITests.release.xcconfig */,
+			);
+			name = "Pods-PushsrChatUITests";
+			path = "Target Support Files/Pods-PushsrChatUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E6EC389C13241A7DEE8CF9DC357CBA35 /* Pods */,
+				96DE6E5EFDB9AEF60063BD9CAF53C92E /* Products */,
+				C783E0A23254C41B4AA7F03384D70DAE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96DE6E5EFDB9AEF60063BD9CAF53C92E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001D5C7BA091DA0FD364A921FDFB7089 /* Pods_PushsrChat.framework */,
+				0D8CE5F6E379D5B504B6CDAE274A0EFA /* Pods_PushsrChatTests.framework */,
+				B1195DECAE09980054486D8FBD68D833 /* Pods_PushsrChatUITests.framework */,
+				A292ACA564CCD20F3FC56AB7521626AD /* PusherSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C783E0A23254C41B4AA7F03384D70DAE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				095928B6C4B9654AB1A6F6805310B177 /* Pods-PushsrChat */,
+				D1748CC3837C7F21A0F015EB73579ED5 /* Pods-PushsrChatTests */,
+				7C0F21CFC9F206FCA436E03BB824A0D4 /* Pods-PushsrChatUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCA2DE78D839F552A8A0378C152AF5EF /* PusherSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B3E357528B5D1AC9F2E7074E6E3F3B09 /* CryptoSwiftHMACModule.swift */,
+				2C06C344F29A1B15D2DDBB118CA53D68 /* PusherChannel.swift */,
+				6B83615C3D8AD3486CF76CDA9BD11197 /* PusherChannels.swift */,
+				703CE75ECE1D46119A3040FB421BDFDB /* PusherClientOptions.swift */,
+				E83B6155271AD73929C7D6274B7B792F /* PusherConnection.swift */,
+				88FA6AD324CED25BC922667A2986A8AE /* PusherGlobalChannel.swift */,
+				2E86CF958980F26CE52F8CDF0255C96A /* PusherPresenceChannel.swift */,
+				0CC1DB4F5767721F3C4C3AA92FE34301 /* PusherSwift.swift */,
+				15597B48298435B203026C18B04CABE9 /* PusherWebsocketDelegate.swift */,
+				27972F4A35FB63C8C1A88093CAB9E93D /* Reachability.swift */,
+				5171835F01EE8CA33BBF7369C992E132 /* Starscream.swift */,
+				273F45D787857F070DA49E35DCA9C2C8 /* Support Files */,
+			);
+			path = PusherSwift;
+			sourceTree = "<group>";
+		};
+		D1748CC3837C7F21A0F015EB73579ED5 /* Pods-PushsrChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E318EEACAA96889941589F7937A6AB03 /* Info.plist */,
+				7E2633A53A8E710A4B042EF6E72060E3 /* Pods-PushsrChatTests.modulemap */,
+				08C42A57E1CA25D7627F841DD165A7CB /* Pods-PushsrChatTests-acknowledgements.markdown */,
+				38F3DC5046D5930C23CC85736DD98A40 /* Pods-PushsrChatTests-acknowledgements.plist */,
+				758F3B86BB4DE293F3E6B58CBC8B22FA /* Pods-PushsrChatTests-dummy.m */,
+				D25F5D1D3C242D8993049CA3B2632D52 /* Pods-PushsrChatTests-frameworks.sh */,
+				60DF849CAEDBDA1188E4D8097133B598 /* Pods-PushsrChatTests-resources.sh */,
+				37BEF48646A10361B0D8606E41786424 /* Pods-PushsrChatTests-umbrella.h */,
+				F771CB868FD77037D0F0C70575AFFEE7 /* Pods-PushsrChatTests.debug.xcconfig */,
+				6AF244F61540784D4EA96E214E6F909B /* Pods-PushsrChatTests.release.xcconfig */,
+			);
+			name = "Pods-PushsrChatTests";
+			path = "Target Support Files/Pods-PushsrChatTests";
+			sourceTree = "<group>";
+		};
+		E6EC389C13241A7DEE8CF9DC357CBA35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCA2DE78D839F552A8A0378C152AF5EF /* PusherSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5FE5229AFC48714F99F8AAF3FFDDC42F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2158F8562D240D580AB7B0D1D68C25F5 /* Pods-PushsrChat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE98744A53044F2F990EC3464CE62CDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DE027C2D3FB7B82FCB432797E06748 /* PusherSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC3044F92E51D0D1E1665EE3F04264A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F348481B7E2A6A0C14B4F7B8386980A9 /* Pods-PushsrChatTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF88ECC54A48FA6E36EED18928F8E5D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7783934DCC9FC41686D3560CB89E19 /* Pods-PushsrChatUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		454760105B162FA969B073C5BEAB3CDF /* Pods-PushsrChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AEC94E714D4D2684AEBB4D446AB34B1 /* Build configuration list for PBXNativeTarget "Pods-PushsrChatUITests" */;
+			buildPhases = (
+				C1A0A07AF0ECC301522F9BA6CB2249D7 /* Sources */,
+				0180E73AD639DD8031BA281DE81695D7 /* Frameworks */,
+				FF88ECC54A48FA6E36EED18928F8E5D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PushsrChatUITests";
+			productName = "Pods-PushsrChatUITests";
+			productReference = B1195DECAE09980054486D8FBD68D833 /* Pods_PushsrChatUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8028CF35B9807F1DCE2909F6B25709D5 /* PusherSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51826D473FF585F42995FAE50DC08467 /* Build configuration list for PBXNativeTarget "PusherSwift" */;
+			buildPhases = (
+				5A437C314E3C43ACF2E59FA2FF7C7BB4 /* Sources */,
+				4103A03E3AED1555A4E6972751901459 /* Frameworks */,
+				BE98744A53044F2F990EC3464CE62CDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PusherSwift;
+			productName = PusherSwift;
+			productReference = A292ACA564CCD20F3FC56AB7521626AD /* PusherSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95B274EA5CBB385649557620EFAD4A69 /* Pods-PushsrChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D140DAF8ABB4E6714339B360C88DB4 /* Build configuration list for PBXNativeTarget "Pods-PushsrChat" */;
+			buildPhases = (
+				2B45DB05C4C6A830D18DE48A01764C59 /* Sources */,
+				C9FAF4DA0283FB23AA073CF4850AD574 /* Frameworks */,
+				5FE5229AFC48714F99F8AAF3FFDDC42F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E37718431E48649F1427EF8C9A978E /* PBXTargetDependency */,
+			);
+			name = "Pods-PushsrChat";
+			productName = "Pods-PushsrChat";
+			productReference = 001D5C7BA091DA0FD364A921FDFB7089 /* Pods_PushsrChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CBE954461F432A4B059AC7833FC3BF8 /* Pods-PushsrChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410D581AC0476FF2E62EC9A84078C4F2 /* Build configuration list for PBXNativeTarget "Pods-PushsrChatTests" */;
+			buildPhases = (
+				4DB551594FDE885303B1E019A5A4F467 /* Sources */,
+				5C04DAB927FA359C7F3209129584AD29 /* Frameworks */,
+				FAC3044F92E51D0D1E1665EE3F04264A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PushsrChatTests";
+			productName = "Pods-PushsrChatTests";
+			productReference = 0D8CE5F6E379D5B504B6CDAE274A0EFA /* Pods_PushsrChatTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 96DE6E5EFDB9AEF60063BD9CAF53C92E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95B274EA5CBB385649557620EFAD4A69 /* Pods-PushsrChat */,
+				9CBE954461F432A4B059AC7833FC3BF8 /* Pods-PushsrChatTests */,
+				454760105B162FA969B073C5BEAB3CDF /* Pods-PushsrChatUITests */,
+				8028CF35B9807F1DCE2909F6B25709D5 /* PusherSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B45DB05C4C6A830D18DE48A01764C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546395AA10F8CD787605E0F437101A71 /* Pods-PushsrChat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB551594FDE885303B1E019A5A4F467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B54A5B64A35394FC74A1F397BB1DE2C /* Pods-PushsrChatTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A437C314E3C43ACF2E59FA2FF7C7BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0595DA5AAEF357CD97625DD05E4634D /* CryptoSwiftHMACModule.swift in Sources */,
+				332F08EA16FD6F6D6E221FC54E7B7BFA /* PusherChannel.swift in Sources */,
+				45796DF2B5BC65E132C989758664E64E /* PusherChannels.swift in Sources */,
+				936CD029979BC5653510E29A018DA8B2 /* PusherClientOptions.swift in Sources */,
+				9C9E29FB6616A8890E61D8EB51CB2C19 /* PusherConnection.swift in Sources */,
+				4241D1504CEA7B9D13F6F0AE56FA5F55 /* PusherGlobalChannel.swift in Sources */,
+				D8B963F11BAA96F778BBC2FA5E7E6CB3 /* PusherPresenceChannel.swift in Sources */,
+				E195220E835078B087DB195DE7A74588 /* PusherSwift-dummy.m in Sources */,
+				147F28E55D80287EEEB7D96D1733E83A /* PusherSwift.swift in Sources */,
+				4F4E10B751B2B426ACB6AA588917BCA6 /* PusherWebsocketDelegate.swift in Sources */,
+				168307893C61C56C15A5028229E7C09B /* Reachability.swift in Sources */,
+				B5F4563370E7CC59D6573FFE07AB3A6F /* Starscream.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A0A07AF0ECC301522F9BA6CB2249D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4699760CB3419993C25D12EF492F206 /* Pods-PushsrChatUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6E37718431E48649F1427EF8C9A978E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PusherSwift;
+			target = 8028CF35B9807F1DCE2909F6B25709D5 /* PusherSwift */;
+			targetProxy = EE18ED10E0676DF3583C9F7495DF2DE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A1AC2A2C62FBEEF300F4DB20A15BBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B6610FA5F998CD4DA8D646DB99F003 /* Pods-PushsrChat.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PushsrChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PushsrChat/Pods-PushsrChat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PushsrChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2280C5E9660742133F463531DB3A96A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F891A8B85A15D453941D79C48FDC06 /* Pods-PushsrChat.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PushsrChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PushsrChat/Pods-PushsrChat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PushsrChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B27BB76A63C21C59D26C51585F03980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6C42C5372769DDC7EF705E12A8685E /* Pods-PushsrChatUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PushsrChatUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PushsrChatUITests/Pods-PushsrChatUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PushsrChatUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B6016C7E2CAC55E56606C421BB7A3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F771CB868FD77037D0F0C70575AFFEE7 /* Pods-PushsrChatTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PushsrChatTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PushsrChatTests/Pods-PushsrChatTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PushsrChatTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B3EF5041604C16D6DCA0A78195AEE28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA057B681BD863DAA9D848BFA6F7AA4 /* PusherSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PusherSwift/PusherSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PusherSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PusherSwift/PusherSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PusherSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B98C99C664B6B9565398A21F3FFB19F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05AB6F5BFCC113FA6E5962868499005A /* Pods-PushsrChatUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PushsrChatUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PushsrChatUITests/Pods-PushsrChatUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PushsrChatUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D28D6FD5B6107BDF6D2C1DB1AB25A172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA057B681BD863DAA9D848BFA6F7AA4 /* PusherSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PusherSwift/PusherSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PusherSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PusherSwift/PusherSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PusherSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E30FF54B1B85E94C309686FFEC2D20E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF244F61540784D4EA96E214E6F909B /* Pods-PushsrChatTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PushsrChatTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PushsrChatTests/Pods-PushsrChatTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PushsrChatTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AEC94E714D4D2684AEBB4D446AB34B1 /* Build configuration list for PBXNativeTarget "Pods-PushsrChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B27BB76A63C21C59D26C51585F03980 /* Debug */,
+				B98C99C664B6B9565398A21F3FFB19F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410D581AC0476FF2E62EC9A84078C4F2 /* Build configuration list for PBXNativeTarget "Pods-PushsrChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6016C7E2CAC55E56606C421BB7A3F9 /* Debug */,
+				E30FF54B1B85E94C309686FFEC2D20E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51826D473FF585F42995FAE50DC08467 /* Build configuration list for PBXNativeTarget "PusherSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3EF5041604C16D6DCA0A78195AEE28 /* Debug */,
+				D28D6FD5B6107BDF6D2C1DB1AB25A172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D140DAF8ABB4E6714339B360C88DB4 /* Build configuration list for PBXNativeTarget "Pods-PushsrChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1AC2A2C62FBEEF300F4DB20A15BBED /* Debug */,
+				2280C5E9660742133F463531DB3A96A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
